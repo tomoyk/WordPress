@@ -7,3 +7,12 @@
 
 **基本的にこのファイルでは何かしているわけではなく、あくまで呼び出しだけのよう。**
 
+## wp-blog-header.php
+
+- wp-load.phpを読み込む
+- `wp()`を呼び出し
+- template-loader.phpを読み込む
+
+## wp-load.php
+
+- `wp_fix_server_vars()`
